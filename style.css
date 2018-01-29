@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    /* background-image: url('images/background.jpg'); */
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li{
+    display: inline-block;
+}
+
+.main-nav li a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a {
+    text-decoration: underline;
+    color: orange;
+}
+
+.main-nav li a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+}
+
+body{
+    font-family: monospace;
+}
+
+.row{
+    max-width: 1200px;
+    margin: auto;
+}
