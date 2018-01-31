@@ -63,12 +63,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 120px;
-    background: url(seaside2.jpg);
-    /*opacity: 0.8; !maakt image scrollend */
+    background: url('images/seaside2.jpg');
+    opacity: 0.8; 
     background-repeat: no-repeat;
     background-position: bottom bottom;
     /*background-position: center center;*/
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     background-attachment: scroll;
     background-size:cover;
 }
