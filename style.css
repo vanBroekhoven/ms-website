@@ -1,23 +1,33 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-#navigation{
-    float: right;
+.row {
+    top: 0;
+    position: fixed;
+    height: 120px;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+
+#navigation {
     list-style: none;
     margin-top: 50px;
-    border-radius: 25px;
 }
 
-#navigation li{
+#navigation li {
     display: inline-block;
+    margin-left: auto;
 }
 
-#navigation li a{
+#navigation li a {
+    float: right;
     color: black;
     text-decoration: none;
     padding: 5px 20px;
+    margin-left: auto;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
 }
@@ -27,37 +37,34 @@
     color: orange;
 }
 
-#navigation li a:hover{
+#navigation li a:hover {
     text-decoration: underline;
     color: orange;
 }
 
-.logo img{
+.logo img {
     width: 100px;
     height: auto;
     margin-top: 10px;
+    margin-right: 120px;
+    margin-left: 100px;
     float: left;
 }
 
-body{
+body {
     font-family: monospace;
 }
 
-.row{
-    height: 120px;
-    max-width: 1200px;
-    margin: auto;
-}
-
-.container {
+.firstContainer {
     width: 100%;
     text-align: center;
-    height: 500px;
+    height: 300px;
     padding-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
-    background: url(background.jpg);
+    margin-top: 120px;
+    background: url(seaside2.jpg);
+    /*opacity: 0.8; !maakt image scrollend */
     background-repeat: no-repeat;
     background-position: bottom bottom;
     /*background-position: center center;*/
@@ -65,3 +72,84 @@ body{
     background-attachment: scroll;
     background-size:cover;
 }
+#secondContainer {
+    width: 100%;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 0px;
+    height: 120px;
+    background-color: grey;
+}
+
+#welkom {    
+    position: relative;
+    top: 30%;
+    color: #ffffff;    
+    text-align: center;
+    font-size: 2.1vw;
+    font-family: "Roboto", sans-serif;
+}
+
+#uitleg {
+    position: relative;
+    top: 40%;
+    color: #ffffff;    
+    text-align: center;
+    font-size: 1vw;
+    font-family: "Roboto", sans-serif;
+}
+
+#thirdContainer {
+    width: 80%;
+    margin-top: 50px;
+    background-color: white;
+}
+
+#leftside {
+    float: left;
+    width: 20%;
+    padding: 10px;	
+}
+
+#ronald {
+    height: 300px;
+    width: auto;
+    border: 2px solid grey;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+#rightside {
+    float: right;
+    width: 60%;
+    font-family: "Roboto", sans-serif;
+    color: grey;
+    margin-top: 30px;
+}
+
+#css-table {
+    display: table; 
+    border: 1px dotted rgb(217,237,249); 
+    background-color: rgba(229, 233, 235, 0.4); 
+    color: grey;
+    width: 100%; 
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+    margin-left: auto; 
+    margin-right: auto;
+    clear: both;
+    text-align: center;
+}
+
+#pagefooter {
+    width: 100%;
+    height: 40px;
+    margin-left: auto; 
+    margin-right: auto;
+    clear: both;
+    background-color: grey;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 15px; 
+}
+
